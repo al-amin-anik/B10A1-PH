@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{margin: 0;
+padding: 0;}
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+#header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*start nav section style */
+.nav-container{
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+}
+
+.nav-title{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.resume-download-btn{
+    padding: 17px 24px 17px 24px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* end nav section style */
+/* start hero section style */
+.hero-main-container{
+    background-image: url('../assets/Hero-bg.png');
+    margin: 0 auto;
+    margin-bottom:100px;
+}
+
+.hero-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 652px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 582px;
+    max-width: 998px;
+}
+
+.hero-title{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 24px 0px;
+}
+
+.hero-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+.contact-button{
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* end hero section style */
+
+#main-container{
+    max-width:1140px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 35px;  
+}
+
+/* start why web development */
+#Why-Web-Development-container{
+    max-width: 946px;
+    margin: 0 auto;
+    padding: 80px;
+    margin-bottom: 80px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-dev-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.why-web-dev-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.why-web-dev-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+/* start I will Do Coding and Change The World */
+.about-coding-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 99px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.about-coding-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.about-coding-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+.learn-more-button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+/* End I will Do Coding and Change The World */
+
+/* start I will help People by creating Modern Web System style */
+.help-people-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.help-people-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.help-people-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.help-people-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+/* end I will help People by creating Modern Web System style */
+/* end why web development */
+
+/* start My Inspiration section style */
+.my-inspiration-section-container{
+   
+}
+
+.inspiration-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 946px;
+    margin: 0 auto;
+}
+
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.inspiration-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px 48px 0px;
+    padding: 0px 30px;
+}
+
+.iframe-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+iframe{
+    border-radius: 16px;
+}
+
+/* end My Inspiration section style */
+
+/* start my current target style */
+.current-target-container{
+    margin-top: 149px;
+    margin-bottom: 111px;
+}
+
+.current-target-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.current-target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.current-target-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+    width: 852px;
+}
+/* end my current target style */
+
+/* star card section style */
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-content1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.card-content2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.card-content3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+.card-title{
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+margin: 8px 0px;
+}
+
+.card-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 8px 0px;
+}
+
+.learn-more-btn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 24px 0px;
+}
+/* end card section style */
+
+
+/* start support section style */
+.support-section-container{
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    height: 314px;
+    border-radius: 16px;
+    background-position: center;
+    background-size:cover;
+    margin-bottom: 89px;
+}
+
+.support-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+}
+
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-description{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0px;
+    width: 700px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+input[type=text]{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
+
+::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+
+input[type=submit]{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* end support section style */
+
+
+/* start footer section style */
+#main-footer{
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.footer-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+/* end footer section style */
+
+/* Happy coding ! */
